@@ -1,0 +1,17 @@
+node_modules/
+dist/
+tmp/
+.tmp/
+qa_screenshots/
+
+.agents/
+.codex/
+
+*.log
+*.zip
+
+.env
+.env.*
+
+Thumbs.db
+Desktop.ini

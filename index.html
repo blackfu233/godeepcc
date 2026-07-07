@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Go Deep Get Bigger</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+        background: #061426;
+      }
+
+      .boot-splash {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        color: #f8e7a6;
+        font-family: Arial, "Microsoft JhengHei", sans-serif;
+        background:
+          radial-gradient(circle at 50% 0%, rgba(125, 235, 255, 0.2), transparent 28%),
+          linear-gradient(180deg, #0d355b 0%, #061426 62%, #030817 100%);
+      }
+
+      .boot-splash div {
+        width: min(72vw, 320px);
+        display: grid;
+        gap: 12px;
+        text-align: center;
+      }
+
+      .boot-splash b {
+        font-size: 20px;
+        letter-spacing: 0.06em;
+      }
+
+      .boot-splash span {
+        height: 6px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.16);
+      }
+
+      .boot-splash i {
+        display: block;
+        width: 52%;
+        height: 100%;
+        border-radius: inherit;
+        background: linear-gradient(90deg, #43e7ff, #ffd76f);
+        animation: boot-load 1.2s ease-in-out infinite alternate;
+      }
+
+      @keyframes boot-load {
+        from { transform: translateX(-42%); }
+        to { transform: translateX(92%); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="boot-splash">
+        <div>
+          <b>GO DEEP GET BIGGER</b>
+          <span><i></i></span>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

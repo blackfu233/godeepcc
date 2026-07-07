@@ -1,0 +1,172 @@
+.performance-settings {
+  display: grid;
+  gap: 7px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(122, 236, 255, 0.18);
+}
+
+.performance-settings header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.performance-settings header b,
+.performance-settings header span {
+  font-size: 10px;
+  line-height: 1.1;
+}
+
+.performance-settings header span {
+  color: #8ff8ff;
+  font-weight: 850;
+}
+
+.performance-settings label {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.25fr);
+  gap: 8px;
+  align-items: center;
+}
+
+.performance-settings select {
+  min-width: 0;
+  min-height: 28px;
+  border: 1px solid rgba(125, 237, 255, 0.28);
+  border-radius: 6px;
+  background: rgba(4, 18, 38, 0.86);
+  color: #eafcff;
+  font: inherit;
+  font-size: 11px;
+}
+
+.perf-medium .ocean-viewport,
+.perf-low .ocean-viewport {
+  background:
+    radial-gradient(ellipse at 50% -2%, rgba(248, 255, 213, 0.32), transparent 20%),
+    linear-gradient(180deg, rgba(8, 39, 80, 0.08), rgba(3, 7, 27, calc(0.08 + var(--depth-progress) * 0.38))),
+    url("../assets/generated/deep-sea-bg-mobile.jpg") center / cover no-repeat,
+    linear-gradient(180deg, rgba(34, 168, 214, 0.95) 0%, rgba(15, 86, 147, 0.98) 38%, rgba(12, 35, 96, 1) 100%);
+}
+
+.perf-medium .route-bg-scene {
+  opacity: min(0.88, calc(var(--route-bg-opacity, 0.66) + 0.08));
+}
+
+.perf-low .route-bg-scene {
+  opacity: min(0.76, calc(var(--route-bg-opacity, 0.66) + 0.03));
+}
+
+.perf-medium .route-bg-near,
+.perf-medium .route-bg-props,
+.perf-low .route-bg-near,
+.perf-low .route-bg-lightshafts,
+.perf-low .route-bg-silhouettes,
+.perf-low .route-bg-props,
+.perf-low .route-bg-particles,
+.perf-low .route-ambient-layer,
+.perf-low .far-fish-layer,
+.perf-low .surface-light,
+.perf-low .god-rays {
+  display: none !important;
+}
+
+.perf-medium .bubble-field span {
+  animation-duration: 10s;
+}
+
+.perf-low .bubble-field span {
+  animation-duration: 13s;
+  opacity: 0.42;
+}
+
+.perf-medium .fish-facing::after,
+.perf-low .fish-facing::after {
+  opacity: 0.22;
+  filter: none;
+}
+
+.perf-low .fish-entity,
+.perf-low .generated-fish-art,
+.perf-low .fish-art,
+.perf-low .sprite-animation,
+.perf-low .sprite-sequence-player,
+.perf-low .route-bg-scene,
+.perf-low .hook-event-banner {
+  filter: none !important;
+}
+
+.perf-medium .sprite-animation,
+.perf-medium .sprite-sequence-player {
+  filter: drop-shadow(0 0 8px rgba(96, 232, 255, 0.22));
+}
+
+.perf-low .game-hud,
+.perf-low .control-bar,
+.perf-low .settings-panel,
+.perf-low .debug-panel {
+  backdrop-filter: none !important;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.34);
+}
+
+.perf-low .hook-event-banner span,
+.perf-low .hook-event-banner b,
+.perf-low .win-total,
+.perf-low .game-hud strong {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.68) !important;
+}
+
+.perf-medium .route-bg-lightshafts {
+  animation-duration: 13s;
+}
+
+.perf-medium .route-bg-particles i {
+  animation-duration: 10s;
+}
+
+.perf-low .dive-wake,
+.perf-low .result-coin,
+.perf-low .route-selected-toast::before,
+.perf-low .route-selected-toast::after {
+  display: none !important;
+}
+
+@media (max-width: 768px), (prefers-reduced-motion: reduce) {
+  .phone-frame:not(.perf-high) .route-bg-props,
+  .phone-frame:not(.perf-high) .route-bg-near,
+  .phone-frame:not(.perf-high) .far-fish-layer {
+    display: none !important;
+  }
+
+  .phone-frame:not(.perf-high) .control-bar,
+  .phone-frame:not(.perf-high) .game-hud,
+  .phone-frame:not(.perf-high) .settings-panel {
+    backdrop-filter: none;
+  }
+
+  .phone-frame:not(.perf-high) .fish-swim,
+  .phone-frame:not(.perf-high) .fish-chip-track {
+    animation-duration: calc(var(--duration) * 1.18);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .route-bg-lightshafts,
+  .route-bg-particles,
+  .bubble-field,
+  .far-fish-layer,
+  .dive-wake,
+  .route-ambient-layer {
+    display: none !important;
+  }
+
+  .fish-swim,
+  .fish-facing,
+  .fish-chip-track,
+  .route-bg-scene,
+  .sprite-animation,
+  .sprite-sequence-player {
+    animation: none !important;
+  }
+}

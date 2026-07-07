@@ -1,0 +1,23 @@
+{
+  "name": "hook_glow_positive",
+  "type": "sprite_sheet",
+  "source": "external_imagegen_chroma_key",
+  "background": "chroma_key_removed_from_00ff00",
+  "sheet": "sheet.png",
+  "sourceGreen": "source_green.png",
+  "preview": "preview.gif",
+  "cols": 4,
+  "rows": 3,
+  "frameCount": 12,
+  "fps": 12,
+  "loop": true,
+  "width": 1536,
+  "height": 1024,
+  "frameWidth": 384,
+  "frameHeight": 341,
+  "anchorPoint": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "usage": "Positive hook glow pre-event, gold-white energy gathers around the true game hook."
+}

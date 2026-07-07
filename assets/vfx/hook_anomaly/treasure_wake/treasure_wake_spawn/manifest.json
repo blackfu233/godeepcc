@@ -1,0 +1,23 @@
+{
+  "name": "treasure_wake_spawn",
+  "type": "sprite_sheet",
+  "source": "external_imagegen_chroma_key",
+  "background": "chroma_key_removed_from_00ff00",
+  "sheet": "sheet.png",
+  "sourceGreen": "source_green.png",
+  "preview": "preview.gif",
+  "cols": 4,
+  "rows": 3,
+  "frameCount": 12,
+  "fps": 12,
+  "loop": false,
+  "width": 1774,
+  "height": 887,
+  "frameWidth": 443,
+  "frameHeight": 295,
+  "anchorPoint": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "usage": "Treasure Wake glow and medium fish school spawn."
+}

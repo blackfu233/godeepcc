@@ -1,0 +1,23 @@
+{
+  "name": "icon_rust_state_light",
+  "type": "sprite_sheet",
+  "source": "external_imagegen_chroma_key_icon_atlas",
+  "background": "chroma_key_removed_from_00ff00",
+  "sheet": "sheet.png",
+  "sourceGreen": "source_green.png",
+  "preview": "preview.gif",
+  "cols": 1,
+  "rows": 1,
+  "frameCount": 1,
+  "fps": 1,
+  "loop": false,
+  "width": 443,
+  "height": 443,
+  "frameWidth": 443,
+  "frameHeight": 443,
+  "anchorPoint": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "usage": "icon rust state light"
+}

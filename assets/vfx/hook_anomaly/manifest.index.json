@@ -1,0 +1,126 @@
+{
+  "root": "assets/vfx/hook_anomaly",
+  "count": 30,
+  "assets": [
+    {
+      "name": "abyss_beacon_apply",
+      "path": "assets/vfx/hook_anomaly/abyss_beacon/abyss_beacon_apply"
+    },
+    {
+      "name": "abyss_predator_shadow",
+      "path": "assets/vfx/hook_anomaly/abyss_predator/abyss_predator_shadow"
+    },
+    {
+      "name": "banner_negative_base",
+      "path": "assets/vfx/hook_anomaly/banners/banner_negative_base"
+    },
+    {
+      "name": "banner_positive_base",
+      "path": "assets/vfx/hook_anomaly/banners/banner_positive_base"
+    },
+    {
+      "name": "hook_break",
+      "path": "assets/vfx/hook_anomaly/break_repair/hook_break"
+    },
+    {
+      "name": "hook_repair",
+      "path": "assets/vfx/hook_anomaly/break_repair/hook_repair"
+    },
+    {
+      "name": "fish_buff_plus2",
+      "path": "assets/vfx/hook_anomaly/fish_buff/fish_buff_plus2"
+    },
+    {
+      "name": "gilded_hook_apply",
+      "path": "assets/vfx/hook_anomaly/gilded_hook/gilded_hook_apply"
+    },
+    {
+      "name": "hook_glow_negative",
+      "path": "assets/vfx/hook_anomaly/glow/hook_glow_negative"
+    },
+    {
+      "name": "hook_glow_positive",
+      "path": "assets/vfx/hook_anomaly/glow/hook_glow_positive"
+    },
+    {
+      "name": "lucky_bait_apply",
+      "path": "assets/vfx/hook_anomaly/lucky_bait/lucky_bait_apply"
+    },
+    {
+      "name": "panic_current_sweep",
+      "path": "assets/vfx/hook_anomaly/panic_current/panic_current_sweep"
+    },
+    {
+      "name": "rare_signal_fake",
+      "path": "assets/vfx/hook_anomaly/rare_signal/rare_signal_fake"
+    },
+    {
+      "name": "rare_signal_real",
+      "path": "assets/vfx/hook_anomaly/rare_signal/rare_signal_real"
+    },
+    {
+      "name": "rust_stage_breakrisk",
+      "path": "assets/vfx/hook_anomaly/rust/rust_stage_breakrisk"
+    },
+    {
+      "name": "rust_stage_heavy",
+      "path": "assets/vfx/hook_anomaly/rust/rust_stage_heavy"
+    },
+    {
+      "name": "rust_stage_light",
+      "path": "assets/vfx/hook_anomaly/rust/rust_stage_light"
+    },
+    {
+      "name": "tideborn_jelly_summon",
+      "path": "assets/vfx/hook_anomaly/tideborn_call/tideborn_jelly_summon"
+    },
+    {
+      "name": "tideborn_pearl_summon",
+      "path": "assets/vfx/hook_anomaly/tideborn_call/tideborn_pearl_summon"
+    },
+    {
+      "name": "tideborn_puffer_summon",
+      "path": "assets/vfx/hook_anomaly/tideborn_call/tideborn_puffer_summon"
+    },
+    {
+      "name": "tideborn_twinfish_summon",
+      "path": "assets/vfx/hook_anomaly/tideborn_call/tideborn_twinfish_summon"
+    },
+    {
+      "name": "treasure_wake_spawn",
+      "path": "assets/vfx/hook_anomaly/treasure_wake/treasure_wake_spawn"
+    },
+    {
+      "name": "icon_abyss_beacon",
+      "path": "assets/vfx/hook_anomaly/ui_icons/icon_abyss_beacon"
+    },
+    {
+      "name": "icon_gilded_hook",
+      "path": "assets/vfx/hook_anomaly/ui_icons/icon_gilded_hook"
+    },
+    {
+      "name": "icon_jellyfish_active",
+      "path": "assets/vfx/hook_anomaly/ui_icons/icon_jellyfish_active"
+    },
+    {
+      "name": "icon_lucky_bait",
+      "path": "assets/vfx/hook_anomaly/ui_icons/icon_lucky_bait"
+    },
+    {
+      "name": "icon_rare_signal",
+      "path": "assets/vfx/hook_anomaly/ui_icons/icon_rare_signal"
+    },
+    {
+      "name": "icon_rust_state_breakrisk",
+      "path": "assets/vfx/hook_anomaly/ui_icons/icon_rust_state_breakrisk"
+    },
+    {
+      "name": "icon_rust_state_heavy",
+      "path": "assets/vfx/hook_anomaly/ui_icons/icon_rust_state_heavy"
+    },
+    {
+      "name": "icon_rust_state_light",
+      "path": "assets/vfx/hook_anomaly/ui_icons/icon_rust_state_light"
+    }
+  ]
+}

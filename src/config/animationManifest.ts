@@ -1,0 +1,108 @@
+import bigWinBurst from "../assets/animated-effects/bigwin_burst_sheet.png";
+import catchSplash from "../assets/animated-effects/catch_splash_sheet.png";
+import goldenPearlMultiplier from "../assets/animated-effects/golden_pearl_multiplier_sheet.png";
+import pufferBombExplosion from "../assets/animated-effects/puffer_bomb_explosion_sheet.png";
+import thunderJellyAttach from "../assets/animated-effects/thunder_jelly_attach_sheet.png";
+import thunderJellyStrike from "../assets/animated-effects/thunder_jelly_strike_sheet.png";
+import twinFishCopy from "../assets/animated-effects/twin_fish_copy_sheet.png";
+import vortexParticle from "../assets/animated-effects/vortex_particle_sheet.png";
+import type { AnimationKey, SpriteSheetAnimation } from "../types/animation";
+
+export const ANIMATION_MANIFEST: Record<AnimationKey, SpriteSheetAnimation> = {
+  pufferBombExplosion: {
+    key: "pufferBombExplosion",
+    src: pufferBombExplosion,
+    frameWidth: 256,
+    frameHeight: 256,
+    columns: 4,
+    rows: 3,
+    frameCount: 12,
+    fps: 10,
+    loop: false,
+    anchorPoint: { x: 0.5, y: 0.5 },
+  },
+  thunderJellyAttach: {
+    key: "thunderJellyAttach",
+    src: thunderJellyAttach,
+    frameWidth: 192,
+    frameHeight: 192,
+    columns: 4,
+    rows: 2,
+    frameCount: 8,
+    fps: 10,
+    loop: true,
+    anchorPoint: { x: 0.5, y: 0.42 },
+  },
+  thunderJellyStrike: {
+    key: "thunderJellyStrike",
+    src: thunderJellyStrike,
+    frameWidth: 256,
+    frameHeight: 512,
+    columns: 4,
+    rows: 2,
+    frameCount: 8,
+    fps: 12,
+    loop: false,
+    anchorPoint: { x: 0.5, y: 0 },
+  },
+  goldenPearlMultiplier: {
+    key: "goldenPearlMultiplier",
+    src: goldenPearlMultiplier,
+    frameWidth: 256,
+    frameHeight: 256,
+    columns: 4,
+    rows: 3,
+    frameCount: 12,
+    fps: 10,
+    loop: false,
+    anchorPoint: { x: 0.5, y: 0.5 },
+  },
+  twinFishCopy: {
+    key: "twinFishCopy",
+    src: twinFishCopy,
+    frameWidth: 256,
+    frameHeight: 256,
+    columns: 4,
+    rows: 3,
+    frameCount: 12,
+    fps: 12,
+    loop: false,
+    anchorPoint: { x: 0.5, y: 0.5 },
+  },
+  vortexParticle: {
+    key: "vortexParticle",
+    src: vortexParticle,
+    frameWidth: 256,
+    frameHeight: 512,
+    columns: 4,
+    rows: 2,
+    frameCount: 8,
+    fps: 12,
+    loop: true,
+    anchorPoint: { x: 0.5, y: 0.5 },
+  },
+  catchSplash: {
+    key: "catchSplash",
+    src: catchSplash,
+    frameWidth: 160,
+    frameHeight: 160,
+    columns: 4,
+    rows: 2,
+    frameCount: 8,
+    fps: 14,
+    loop: false,
+    anchorPoint: { x: 0.5, y: 0.5 },
+  },
+  bigWinBurst: {
+    key: "bigWinBurst",
+    src: bigWinBurst,
+    frameWidth: 512,
+    frameHeight: 512,
+    columns: 4,
+    rows: 3,
+    frameCount: 12,
+    fps: 12,
+    loop: false,
+    anchorPoint: { x: 0.5, y: 0.5 },
+  },
+};
