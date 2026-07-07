@@ -4836,6 +4836,10 @@ button:disabled {
   pointer-events: none;
 }
 
+.hook-event-banner.positive .hook-event-banner-content {
+  top: 37%;
+}
+
 .hook-event-banner span {
   display: block;
   width: 100%;
