@@ -4819,15 +4819,15 @@ button:disabled {
 .hook-event-banner-content {
   position: absolute;
   z-index: 3;
-  left: 50%;
-  top: 51%;
-  width: min(68%, 232px);
-  min-height: 44px;
+  left: 50.5%;
+  top: 48%;
+  width: min(54%, 194px);
+  min-height: 40px;
   display: grid;
   align-content: center;
   justify-items: center;
   gap: 2px;
-  padding: 2px 8px;
+  padding: 2px 10px;
   transform: translate(-50%, -50%);
   border-radius: 999px;
   background:
@@ -4840,8 +4840,8 @@ button:disabled {
   display: block;
   width: 100%;
   color: #fff4bd;
-  font-size: 18px;
-  line-height: 0.96;
+  font-size: 16.5px;
+  line-height: 1;
   font-weight: 950;
   letter-spacing: 0.015em;
   text-align: center;
@@ -4856,9 +4856,9 @@ button:disabled {
   display: block;
   width: 100%;
   color: #bafcff;
-  font-size: 9.5px;
+  font-size: 8.8px;
   line-height: 1;
-  letter-spacing: 0.055em;
+  letter-spacing: 0.04em;
   text-align: center;
   white-space: nowrap;
   overflow-wrap: normal;
@@ -5526,12 +5526,12 @@ button:disabled {
 }
 
 .hook-event-banner-content span {
-  font-size: clamp(14px, 4.4vw, 18px);
-  line-height: 0.96;
+  font-size: clamp(13px, 4vw, 16.5px);
+  line-height: 1;
 }
 
 .hook-event-banner-content b {
-  font-size: clamp(8px, 2.35vw, 9.5px);
+  font-size: clamp(7.5px, 2.1vw, 8.8px);
   line-height: 1;
   letter-spacing: 0.04em;
 }
